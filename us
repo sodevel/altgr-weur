@@ -854,7 +854,7 @@ xkb_symbols "altgr-intl" {
 // Adriaan and Enno
 
 // Version info (for altgr-weur ONLY):
-// $Id: altgr-weur,v 1.11 2021/03/13 09:20:30 adriaan Exp $
+// $Id: altgr-weur,v 1.12 2021/03/14 09:25:34 adriaan Exp $
 
 partial alphanumeric_keys
 xkb_symbols "altgr-weur" {
@@ -868,8 +868,8 @@ xkb_symbols "altgr-weur" {
    key <AE04> { [         4,     dollar,            cent,               yen ] };
    key <AE05> { [         5,    percent,        EuroSign,          sterling ] };
    key <AE06> { [         6,asciicircum, dead_circumflex,        dead_caron ] };
-   key <AE07> { [         7,  ampersand,     icircumflex,       Icircumflex ] };
-   key <AE08> { [       8, asterisk, doublelowquotemark, singlelowquotemark ] };
+   key <AE07> { [ 7,      ampersand, doublelowquotemark, singlelowquotemark ] };
+   key <AE08> { [ 8,           asterisk,          ssharp,        dead_greek ] };
    key <AE09> { [ 9, parenleft,   leftdoublequotemark,  leftsinglequotemark ] };
    key <AE10> { [ 0, parenright, rightdoublequotemark, rightsinglequotemark ] };
    key <AE11> { [     minus, underscore,          endash,            emdash ] };
@@ -893,7 +893,7 @@ xkb_symbols "altgr-weur" {
    key <AC02> { [         s,          S,          agrave,            Agrave ] };
    key <AC03> { [         d,          D,          eacute,            Eacute ] };
    key <AC04> { [         f,          F,     ecircumflex,       Ecircumflex ] };
-   key <AC05> { [         g,          G,          ssharp,        dead_greek ] };
+   key <AC05> { [         g,          G,     icircumflex,       Icircumflex ] };
    key <AC06> { [         h,          H,     ucircumflex,       Ucircumflex ] };
    key <AC07> { [         j,          J,          uacute,            Uacute ] };
    key <AC08> { [         k,          K,          iacute,            Iacute ] };
