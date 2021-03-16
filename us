@@ -854,7 +854,7 @@ xkb_symbols "altgr-intl" {
 // Adriaan and Enno
 
 // Version info (for altgr-weur ONLY):
-// $Id: altgr-weur,v 1.12 2021/03/14 09:25:34 adriaan Exp $
+// $Id: altgr-weur,v 1.13 2021/03/16 09:35:52 adriaan Exp $
 
 partial alphanumeric_keys
 xkb_symbols "altgr-weur" {
@@ -862,7 +862,7 @@ xkb_symbols "altgr-weur" {
    name[Group1]= "English (Western European AltGr dead keys)";
 
    key <TLDE> { [     grave, asciitilde,      dead_grave,        dead_tilde ] };
-   key <AE01> { [         1,     exclam,      exclamdown,  dead_doublegrave ] };
+   key <AE01> { [         1,     exclam,      exclamdown,     dead_abovedot ] };
    key <AE02> { [         2,         at,     twosuperior,  dead_doubleacute ] };
    key <AE03> { [         3, numbersign,   threesuperior,       dead_macron ] };
    key <AE04> { [         4,     dollar,            cent,               yen ] };

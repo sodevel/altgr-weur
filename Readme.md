@@ -4,7 +4,7 @@ I had to change the name of this keyboard into an 8 character string altgrweu an
 
 Some dead keys like dead_greek don't work.
 
-This is version v1.12 by Adriaan.
+This is version v1.13 by Adriaan.
 
 ![AltGrg](AltGr.jpg)
 
