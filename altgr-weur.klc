@@ -3,6 +3,12 @@
 
 KBD	altgrweu	"English (Western European AltGr dead keys) v2.0"
 
+COPYRIGHT	"(c) 2021 Adriaan van Nijendaal, (c) 2023 Steffen Olszewski"
+
+COMPANY	"FOSS"
+
+VERSION	1.0
+
 SHIFTSTATE
 
 0
