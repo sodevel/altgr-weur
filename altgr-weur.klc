@@ -20,7 +20,7 @@ LAYOUT
 06	5	0	5	0025	20ac	00a3	// QWERTY 5: 5, %, €, £
 07	6	0	6	005e	005e@	02c7@	// QWERTY 6: 6, ^, cdk:circumflex, cdk:caron
 08	7	0	7	0026	201e	201a	// QWERTY 7: 7, &, „, ‚
-09	8	0	8	002a	00df	e000@	// QWERTY 8: 8, *, ß, cdk:greek
+09	8	0	8	002a	00df	00b5@	// QWERTY 8: 8, *, ß, cdk:greek
 0a	9	0	9	0028	201c	2018	// QWERTY 9: 9, (, “, ‘
 0b	0	0	0	0029	201d	2019	// QWERTY 0: 0, ), ”, ’
 0c	OEM_MINUS	0	002d	005f	2013	2014	// QWERTY -: -, _, –, —
@@ -237,7 +237,7 @@ DEADKEY 02c7	// caron
 01b7	01ee	// Ʒ → Ǯ
 0292	01ef	// ʒ → ǯ
 
-DEADKEY e000	// greek
+DEADKEY 00b5	// greek
 
 0041	0391	// A → Α
 0061	03b1	// a → α
