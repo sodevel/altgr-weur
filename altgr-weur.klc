@@ -63,7 +63,6 @@ LAYOUT
 
 DEADKEY 0060	// grave
 
-0020	0060	//   → `
 0041	00c0	// A → À
 0061	00e0	// a → à
 0045	00c8	// E → È
@@ -80,6 +79,7 @@ DEADKEY 0060	// grave
 0077	1e81	// w → ẁ
 0059	1ef2	// Y → Ỳ
 0079	1ef3	// y → ỳ
+0020	0060	//   → `
 
 DEADKEY 007e	// tilde
 
@@ -99,6 +99,7 @@ DEADKEY 007e	// tilde
 0076	1e7d	// v → ṽ
 0059	1ef8	// Y → Ỹ
 0079	1ef9	// y → ỹ
+0020	007e	//   → ~
 
 DEADKEY 02d9	// abovedot
 
@@ -142,6 +143,7 @@ DEADKEY 02d9	// abovedot
 0079	1e8f	// y → ẏ
 005a	017b	// Z → Ż
 007a	017c	// z → ż
+0020	02d9	//   → ˙
 
 DEADKEY 02dd	// doubleacute
 
@@ -149,6 +151,7 @@ DEADKEY 02dd	// doubleacute
 006f	0151	// o → ő
 0055	0170	// U → Ű
 0075	0171	// u → ű
+0020	02dd	//   → ˝
 
 DEADKEY 00af	// macron
 
@@ -168,10 +171,10 @@ DEADKEY 00af	// macron
 0079	0233	// y → ȳ
 00c6	01e2	// Æ → Ǣ
 00e6	01e3	// æ → ǣ
+0020	00af	//   → ¯
 
 DEADKEY 005e	// circumflex
 
-0020	005e	//   → ^
 0041	00c2	// A → Â
 0061	00e2	// a → â
 0043	0108	// C → Ĉ
@@ -198,6 +201,7 @@ DEADKEY 005e	// circumflex
 0079	0177	// y → ŷ
 005a	1e90	// Z → Ẑ
 007a	1e91	// z → ẑ
+0020	005e	//   → ^
 
 DEADKEY 02c7	// caron
 
@@ -236,6 +240,7 @@ DEADKEY 02c7	// caron
 007a	017e	// z → ž
 01b7	01ee	// Ʒ → Ǯ
 0292	01ef	// ʒ → ǯ
+0020	02c7	//   → ˇ
 
 DEADKEY 00b5	// greek
 
@@ -287,6 +292,7 @@ DEADKEY 00b5	// greek
 0079	03c8	// y → ψ
 005a	0396	// Z → Ζ
 007a	03b6	// z → ζ
+0020	00b5	//   → µ
 
 DEADKEY 02da	// abovering
 
@@ -296,10 +302,10 @@ DEADKEY 02da	// abovering
 0075	016f	// u → ů
 0077	1e98	// w → ẘ
 0079	1e99	// y → ẙ
+0020	02da	//   → ˚
 
 DEADKEY 00b4	// acute
 
-0020	0027	//   → '
 0041	00c1	// A → Á
 0061	00e1	// a → á
 00c6	01fc	// Æ → Ǽ
@@ -338,10 +344,10 @@ DEADKEY 00b4	// acute
 0079	00fd	// y → ý
 005a	0179	// Z → Ź
 007a	017a	// z → ź
+0020	0027	//   → '
 
 DEADKEY 00a8	// diaeresis
 
-0020	0022	//   → "
 0041	00c4	// A → Ä
 0061	00e4	// a → ä
 0045	00cb	// E → Ë
@@ -361,6 +367,7 @@ DEADKEY 00a8	// diaeresis
 0078	1e8d	// x → ẍ
 0059	0178	// Y → Ÿ
 0079	00ff	// y → ÿ
+0020	0022	//   → "
 
 DEADKEY 00b8	// cedilla
 
@@ -386,6 +393,7 @@ DEADKEY 00b8	// cedilla
 0073	015f	// s → ş
 0054	0162	// T → Ţ
 0074	0163	// t → ţ
+0020	00b8	//   → ¸
 
 DEADKEY 02db	// ogonek
 
@@ -399,6 +407,7 @@ DEADKEY 02db	// ogonek
 006f	01eb	// o → ǫ
 0055	0172	// U → Ų
 0075	0173	// u → ų
+0020	02db	//   → ˛
 
 DEADKEY 002f	// stroke
 
@@ -444,6 +453,7 @@ DEADKEY 002f	// stroke
 0075	0289	// u → ʉ
 0059	024e	// Y → Ɏ
 0079	024f	// y → ɏ
+0020	002f	//   → /
 
 
 ENDKBD
