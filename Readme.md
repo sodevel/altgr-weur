@@ -1,42 +1,31 @@
-A western european keyboard layout for Windows, with AltGr dead keys
-and precomposed diacritics,
+# English (Western European AltGr dead keys)
 
-Inspired by https://altgr-weur.eu and
-https://github.com/thomasfaingnaert/win-us-intl-altgr, forked from
-https://github.com/cjuniet/altgr-weur.
+This is [AltGr-WEur](https://altgr-weur.eu) for Windows, a western european keyboard layout, with AltGr dead keys
+and precomposed diacritics.
 
-Made by means of https://github.com/39aldo39/klfc after importing
-altgr-weur version v2.0 from https://altgr-weur.eu/altgr-weur into my
-/usr/share/X11/xkb/symbols/us.  As klfc didn't do OEM_102 I added the
-missing line in altgr-weur.klc by hand.
+This fork is an updated and improved version of the official version from [Johan Laenen](https://github.com/gargle/altgr-weur).
+It fixes a wrong Unicode code point resulting in wrong inputs by using the same Unicode code point like [XKB](https://www.x.org/wiki/XKB) does.
+Additionally, the dead key sequences have been improved to follow the MSKLC recommendations and some metadata has been added.
 
-I had to change the name of this keyboard into an 8 character string
-altgrweu and changed the filename from us-altgr-weur.klc to
-altgr-weur.klc.  unix2dos was used as well as the Microsoft Keyboard
-Layout Creator cannot handle files with lf's only.
+![AltGr](images/AltGr.jpg)
 
-Some dead keys like dead_greek don't work.
+![Shift+AltGr](images/ShiftAltGr.jpg)
 
-This is altgr-weur,v2.0 2021/04/12 11:27:12 by adriaan. It's the same 
-layout as v1.13.
+## Usage
 
-HOWTO:
+Install the keyboard layout and add the keyboard `English (Western European AltGr dead keys)` to your current locale.
 
-0. Download the Microsoft Keyboard Layout Creator
-(https://www.microsoft.com/en-us/search?q=keyboard+layout+creator).  You
-need the .NET framework.
+## Binary Installation
 
-1. Load the altgr-weur.klc source file in Microsoft Keyboard Layout
-Creator.  (File menu, Load Source File...)
+This is the easiest way, use the latest installer from the [Releases](https://github.com/sodevel/altgr-weur/releases) page.
 
-2. Build DLL and Setup Package and follow all the prompts.  (Project menu)
+**NOTICE:** The keyboard layout is connected to the German system locale `Deutsch`, if this locale is not present
+            on your system, it will get added as well and show up in the language toolbar. If this is not desired,
+            you have to compile an own installer from source and connect it to the desired system locale.
 
-3. Run the generated setup.exe.
+## Source Compilation
 
-4. https://www.windowscentral.com/how-change-your-keyboard-layout-windows-10.
-
-5. https://superuser.com/questions/955783/setting-the-default-input-method-for-the-windows-10-login-screen.
-
-![AltGrg](AltGr.jpg)
-
-![Shift+AltGr](ShiftAltGr.jpg)
+To compile the keyboard layout source file, you have to install the [Microsoft Keyboard Layout Creator (MSKLC) Version 1.4](https://www.microsoft.com/en-us/download/details.aspx?id=102134).
+The keyboard layout source file does not contain a locale definition, hence MSKLC will use the current system locale for the created installer.
+Ensure that your system is currently using the desired locale and start MSKLC. Use `File | Load Source File...` and select `altgr-weur.klc`.
+Create the installer by using `Project | Build DLL and Setup Package`, install the keyboard layout by starting the created `setup.exe`.
